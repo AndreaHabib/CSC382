@@ -1,0 +1,160 @@
+input0.txt: 16
+output0.txt: 14
+Compression Ratio: 0.875
+
+input1.txt: 894
+output1.txt: 490
+Compression Ratio: 0.548098
+
+input2.txt: 1316
+output2.txt: 726
+Compression Ratio: 0.551672
+
+input3.txt: 4426
+output3.txt: 2430
+Compression Ratio: 0.549028
+
+input4.txt: 3700
+output4.txt: 2017
+Compression Ratio: 0.545135
+
+input5.txt: 4056
+output5.txt: 2228
+Compression Ratio: 0.54931
+
+input6.txt: 3909
+output6.txt: 2153
+Compression Ratio: 0.55078
+
+input7.txt: 7226
+output7.txt: 3823
+Compression Ratio: 0.529062
+
+input8.txt: 3680
+output8.txt: 2024
+Compression Ratio: 0.55
+
+input9.txt: 3682
+output9.txt: 2021
+Compression Ratio: 0.548886
+
+input10.txt: 3272
+output10.txt: 1791
+Compression Ratio: 0.547372
+
+input11.txt: 7226
+output11.txt: 3823
+Compression Ratio: 0.529062
+
+input12.txt: 2117
+output12.txt: 1204
+Compression Ratio: 0.568729
+
+input13.txt: 3656
+output13.txt: 2015
+Compression Ratio: 0.551149
+
+input14.txt: 3954
+output14.txt: 2171
+Compression Ratio: 0.549064
+
+input15.txt: 3713
+output15.txt: 2045
+Compression Ratio: 0.550768
+
+input16.txt: 7226
+output16.txt: 3823
+Compression Ratio: 0.529062
+
+input17.txt: 7226
+output17.txt: 3823
+Compression Ratio: 0.529062
+
+input18.txt: 7226
+output18.txt: 3823
+Compression Ratio: 0.529062
+
+input19.txt: 4048
+output19.txt: 2220
+Compression Ratio: 0.548419
+
+input0.txt: 16
+output0.txt: 14
+Compression Ratio: 0.875
+
+input1.txt: 894
+output1.txt: 490
+Compression Ratio: 0.548098
+
+input2.txt: 1316
+output2.txt: 726
+Compression Ratio: 0.551672
+
+input3.txt: 4426
+output3.txt: 2430
+Compression Ratio: 0.549028
+
+input4.txt: 3700
+output4.txt: 2017
+Compression Ratio: 0.545135
+
+input5.txt: 4056
+output5.txt: 2228
+Compression Ratio: 0.54931
+
+input6.txt: 3909
+output6.txt: 2153
+Compression Ratio: 0.55078
+
+input7.txt: 7226
+output7.txt: 3823
+Compression Ratio: 0.529062
+
+input8.txt: 3680
+output8.txt: 2024
+Compression Ratio: 0.55
+
+input9.txt: 3682
+output9.txt: 2021
+Compression Ratio: 0.548886
+
+input10.txt: 3272
+output10.txt: 1791
+Compression Ratio: 0.547372
+
+input11.txt: 7226
+output11.txt: 3823
+Compression Ratio: 0.529062
+
+input12.txt: 2117
+output12.txt: 1204
+Compression Ratio: 0.568729
+
+input13.txt: 3656
+output13.txt: 2015
+Compression Ratio: 0.551149
+
+input14.txt: 3954
+output14.txt: 2171
+Compression Ratio: 0.549064
+
+input15.txt: 3713
+output15.txt: 2045
+Compression Ratio: 0.550768
+
+input16.txt: 7226
+output16.txt: 3823
+Compression Ratio: 0.529062
+
+input17.txt: 7226
+output17.txt: 3823
+Compression Ratio: 0.529062
+
+input18.txt: 7226
+output18.txt: 3823
+Compression Ratio: 0.529062
+
+input19.txt: 4048
+output19.txt: 2220
+Compression Ratio: 0.548419
+
