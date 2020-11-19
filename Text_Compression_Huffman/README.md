@@ -5,3 +5,4 @@ Takes in an input file, encodes the characters into one binary string, compresse
 
 # Compression Ratio:
 
+![](Capture.PNG)
