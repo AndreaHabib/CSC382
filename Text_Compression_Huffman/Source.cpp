@@ -116,8 +116,6 @@ void encode(Node* root, string str, unordered_map<char, string>& huffmanCode) {
 //traverse the huffman tree to decode the decoded string from decompression function
 void decode(Node* root, int& index, string str, ofstream& decode1) {
 
-	//WARNING!! IT APPENDS TO EXISTING FILES. MUST DELETE THE FILES EVERY RUN
-
 	if (root == nullptr) {
 		return;
 	}
