@@ -35,7 +35,7 @@ int before = 0, after = 0;
 //all function(prototypes) used
 Node* getNode(char, int, Node*, Node*);
 void encode(Node*, string, unordered_map<char, string>&);
-void decode(Node*, int&, string);
+void decode(Node*, int&, ofstream&);
 void buildHuffmanTree(vector<char>, int);
 void inData(vector<char>&, string);
 void compress(unordered_map<char, string>, string, vector<char>);
@@ -114,7 +114,9 @@ void encode(Node* root, string str, unordered_map<char, string>& huffmanCode) {
 }
 
 //traverse the huffman tree to decode the decoded string from decompression function
-void decode(Node* root, int& index, string str) {
+void decode(Node* root, int& index, string str, ofstream& decode1) {
+
+	//WARNING!! IT APPENDS TO EXISTING FILES. MUST DELETE THE FILES EVERY RUN
 
 	if (root == nullptr) {
 		return;
@@ -122,6 +124,7 @@ void decode(Node* root, int& index, string str) {
 
 	if (!root->left && !root->right)
 	{
+		decode1.write((char*)&root->ch, sizeof(char));
 		//cout << root->ch;
 		return;
 	}
@@ -129,9 +132,9 @@ void decode(Node* root, int& index, string str) {
 	index++;
 
 	if (str[index] == '0')
-		decode(root->left, index, str);
+		decode(root->left, index, str, decode1);
 	else
-		decode(root->right, index, str);
+		decode(root->right, index, str, decode1);
 }
 
 //builds huffman tree, encode, compress, decompress, and then decode
@@ -191,11 +194,20 @@ void buildHuffmanTree(vector<char> input, int i) {
 
 	//cout << str << endl;
 
+	string decoded;
+
+	decoded += "decoded";
+	decoded += to_string(i);
+	decoded += ".txt";
+
+	ofstream decode1;
+	decode1.open(decoded.c_str(), ios::out | ios::trunc);
+
 	//decode the file
 	int index = -1;
 	//cout << "\nDecoded string is:" << endl;
 	while (index < (int)stri.size() - 2) {
-		decode(root, index, stri);
+		decode(root, index, stri, decode1);
 	}
 
 	cout << endl << endl;
